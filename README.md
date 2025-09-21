@@ -82,7 +82,7 @@ npx tsc
 ### 4. Executar o programa
 
 ``` bash
-node ControleDeNotas/main.js
+npx tsx main.ts
 ```
 
 ------------------------------------------------------------------------
