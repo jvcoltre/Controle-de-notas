@@ -59,14 +59,18 @@ lançar notas de um aluno, calcular a média e exibir se o aluno foi
 ### 1. Clonar o repositório
 
 ``` bash
-git clone https://github.com/seu-usuario/ControleDeNotas.git
+git clone https://github.com/jvcoltre/Controle-de-notas.git
 cd ControleDeNotas
 ```
 
 ### 2. Instalar dependências
 
 ``` bash
-npm install
+npm init -y
+   npm i -g typescript --save
+   npm i ts-node --save
+
+   npm i @types/prompt-sync
 ```
 
 ### 3. Compilar o TypeScript
